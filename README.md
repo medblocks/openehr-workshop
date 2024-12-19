@@ -16,11 +16,11 @@ This repository contains the Postman collection and environment for the openEHR 
 ![Import Collection](./images/import-collection.png)
 
 ```
-https://raw.githubusercontent.com/medblocks/openehr-workshop-by-dr-sidharth-ramesh/main/openEHR%20Workshop%20by%20Dr%20Sidharth%20Ramesh.postman_collection.json
+https://raw.githubusercontent.com/sidharthramesh/openehr-workshop/refs/heads/main/openEHR%20Workshop%20by%20Dr%20Sidharth%20Ramesh.postman_collection.json
 ```
 4. Import the environment by pasting in the following URL in the import dialog:
 ```
-https://raw.githubusercontent.com/medblocks/openehr-workshop-by-dr-sidharth-ramesh/main/Medblocks%20openEHR%20Bootcamp.postman_environment.json
+https://raw.githubusercontent.com/sidharthramesh/openehr-workshop/refs/heads/main/Medblocks%20openEHR%20Bootcamp.postman_environment.json
 ```
 
 ## Running EHRbase locally
