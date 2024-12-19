@@ -1089,7 +1089,7 @@
 										],
 										"body": {
 											"mode": "raw",
-											"raw": "{\n    \"allergies_with_terminology/category|code\": \"433\",\n    \"allergies_with_terminology/category|value\": \"event\",\n    \"allergies_with_terminology/category|terminology\": \"openehr\",\n    \"allergies_with_terminology/context/start_time\": \"2022-02-03T04:05:06\",\n    \"allergies_with_terminology/context/setting|code\": \"225\",\n    \"allergies_with_terminology/context/setting|terminology\": \"openehr\",\n    \"allergies_with_terminology/context/setting|value\": \"home\",\n    \"allergies_with_terminology/context/_end_time\": \"2022-02-03T04:05:06\",\n    \"allergies_with_terminology/context/_health_care_facility|name\": \"DOE, John\",\n    \"allergies_with_terminology/adverse_reaction_risk/substance|code\": \"42\",\n    \"allergies_with_terminology/adverse_reaction_risk/substance|terminology\": \"//fhir.hl7.org/ValueSet/$expand?url=http://hl7.org/fhir/ValueSet/allergyintolerance-code\",\n    \"allergies_with_terminology/adverse_reaction_risk/substance|value\": \"No example for termínology '//fhir.hl7.org/ValueSet/$expand?url=http://hl7.org/fhir/ValueSet/allergyintolerance-code' available\",\n    \"allergies_with_terminology/adverse_reaction_risk/status|terminology\": \"local\",\n    \"allergies_with_terminology/adverse_reaction_risk/status|value\": \"Suspected\",\n    \"allergies_with_terminology/adverse_reaction_risk/status|code\": \"at0127\",\n    \"allergies_with_terminology/adverse_reaction_risk/criticality|terminology\": \"local\",\n    \"allergies_with_terminology/adverse_reaction_risk/criticality|value\": \"Low\",\n    \"allergies_with_terminology/adverse_reaction_risk/criticality|code\": \"at0102\",\n    \"allergies_with_terminology/adverse_reaction_risk/language|terminology\": \"ISO_639-1\",\n    \"allergies_with_terminology/adverse_reaction_risk/language|code\": \"en\",\n    \"allergies_with_terminology/adverse_reaction_risk/encoding|terminology\": \"IANA_character-sets\",\n    \"allergies_with_terminology/adverse_reaction_risk/encoding|code\": \"UTF-8\",\n    \"allergies_with_terminology/adverse_reaction_risk/_work_flow_id|id\": \"04f6dd2d-bc20-31dd-97dd-060fb6bcac79\",\n    \"allergies_with_terminology/adverse_reaction_risk/_work_flow_id|id_scheme\": \"scheme\",\n    \"allergies_with_terminology/adverse_reaction_risk/_work_flow_id|namespace\": \"unknown\",\n    \"allergies_with_terminology/adverse_reaction_risk/_work_flow_id|type\": \"ANY\",\n    \"allergies_with_terminology/adverse_reaction_risk/_guideline_id|id\": \"42c52093-e528-3ffd-9451-cb521d76366b\",\n    \"allergies_with_terminology/adverse_reaction_risk/_guideline_id|id_scheme\": \"scheme\",\n    \"allergies_with_terminology/adverse_reaction_risk/_guideline_id|namespace\": \"unknown\",\n    \"allergies_with_terminology/adverse_reaction_risk/_guideline_id|type\": \"ANY\",\n    \"allergies_with_terminology/language|terminology\": \"ISO_639-1\",\n    \"allergies_with_terminology/language|code\": \"en\",\n    \"allergies_with_terminology/territory|code\": \"DE\",\n    \"allergies_with_terminology/territory|terminology\": \"ISO_3166-1\",\n    \"allergies_with_terminology/composer|name\": \"Max Mustermann\"\n}",
+											"raw": "{\n    \"vital_signs.v0/category|terminology\": \"openehr\",\n    \"vital_signs.v0/category|value\": \"event\",\n    \"vital_signs.v0/category|code\": \"433\",\n    \"vital_signs.v0/context/start_time\": \"2022-02-03T04:05:06\",\n    \"vital_signs.v0/context/setting|code\": \"225\",\n    \"vital_signs.v0/context/setting|value\": \"home\",\n    \"vital_signs.v0/context/setting|terminology\": \"openehr\",\n    \"vital_signs.v0/context/_end_time\": \"2022-02-03T04:05:06\",\n    \"vital_signs.v0/context/_health_care_facility|name\": \"DOE, John\",\n    \"vital_signs.v0/pulse_heart_beat/rate|unit\": \"/min\",\n    \"vital_signs.v0/pulse_heart_beat/rate|magnitude\": 70.0,\n    \"vital_signs.v0/pulse_heart_beat/time\": \"2022-02-03T04:05:06\",\n    \"vital_signs.v0/pulse_heart_beat/width\": \"PT42H\",\n    \"vital_signs.v0/pulse_heart_beat/math_function|terminology\": \"openehr\",\n    \"vital_signs.v0/pulse_heart_beat/math_function|code\": \"145\",\n    \"vital_signs.v0/pulse_heart_beat/math_function|value\": \"minimum\",\n    \"vital_signs.v0/pulse_heart_beat/language|terminology\": \"ISO_639-1\",\n    \"vital_signs.v0/pulse_heart_beat/language|code\": \"en\",\n    \"vital_signs.v0/pulse_heart_beat/encoding|terminology\": \"IANA_character-sets\",\n    \"vital_signs.v0/pulse_heart_beat/encoding|code\": \"UTF-8\",\n    \"vital_signs.v0/pulse_heart_beat/_work_flow_id|id\": \"a7d5d814-c20a-3aa2-930a-1cae77f1924e\",\n    \"vital_signs.v0/pulse_heart_beat/_work_flow_id|id_scheme\": \"scheme\",\n    \"vital_signs.v0/pulse_heart_beat/_work_flow_id|namespace\": \"unknown\",\n    \"vital_signs.v0/pulse_heart_beat/_work_flow_id|type\": \"ANY\",\n    \"vital_signs.v0/pulse_heart_beat/_guideline_id|id\": \"99cf6910-fad9-33fb-91c7-e1520dd39a27\",\n    \"vital_signs.v0/pulse_heart_beat/_guideline_id|id_scheme\": \"scheme\",\n    \"vital_signs.v0/pulse_heart_beat/_guideline_id|namespace\": \"unknown\",\n    \"vital_signs.v0/pulse_heart_beat/_guideline_id|type\": \"ANY\",\n    \"vital_signs.v0/blood_pressure/systolic|unit\": \"mm[Hg]\",\n    \"vital_signs.v0/blood_pressure/systolic|magnitude\": 120.0,\n    \"vital_signs.v0/blood_pressure/diastolic|unit\": \"mm[Hg]\",\n    \"vital_signs.v0/blood_pressure/diastolic|magnitude\": 80.0,\n    \"vital_signs.v0/blood_pressure/time\": \"2022-02-03T04:05:06\",\n    \"vital_signs.v0/blood_pressure/width\": \"PT42H\",\n    \"vital_signs.v0/blood_pressure/math_function|code\": \"145\",\n    \"vital_signs.v0/blood_pressure/math_function|terminology\": \"openehr\",\n    \"vital_signs.v0/blood_pressure/math_function|value\": \"minimum\",\n    \"vital_signs.v0/blood_pressure/language|code\": \"en\",\n    \"vital_signs.v0/blood_pressure/language|terminology\": \"ISO_639-1\",\n    \"vital_signs.v0/blood_pressure/encoding|terminology\": \"IANA_character-sets\",\n    \"vital_signs.v0/blood_pressure/encoding|code\": \"UTF-8\",\n    \"vital_signs.v0/blood_pressure/_work_flow_id|id\": \"4f50f151-287b-3add-970f-739a56814a38\",\n    \"vital_signs.v0/blood_pressure/_work_flow_id|id_scheme\": \"scheme\",\n    \"vital_signs.v0/blood_pressure/_work_flow_id|namespace\": \"unknown\",\n    \"vital_signs.v0/blood_pressure/_work_flow_id|type\": \"ANY\",\n    \"vital_signs.v0/blood_pressure/_guideline_id|id\": \"9aa54688-cfd4-3783-8cf4-f9467aafa263\",\n    \"vital_signs.v0/blood_pressure/_guideline_id|id_scheme\": \"scheme\",\n    \"vital_signs.v0/blood_pressure/_guideline_id|namespace\": \"unknown\",\n    \"vital_signs.v0/blood_pressure/_guideline_id|type\": \"ANY\",\n    \"vital_signs.v0/language|code\": \"en\",\n    \"vital_signs.v0/language|terminology\": \"ISO_639-1\",\n    \"vital_signs.v0/territory|code\": \"DE\",\n    \"vital_signs.v0/territory|terminology\": \"ISO_3166-1\",\n    \"vital_signs.v0/composer|name\": \"Sidharth Ramesh\"\n}",
 											"options": {
 												"raw": {
 													"language": "json"
@@ -1545,7 +1545,7 @@
 					"name": "query",
 					"item": [
 						{
-							"name": "Ad-hoc query",
+							"name": "Get all blood pressure on my template",
 							"event": [
 								{
 									"listen": "prerequest",
@@ -1583,7 +1583,125 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n  \"q\": \"\"\n}",
+									"raw": "{\n  \"q\": \"select c from COMPOSITION c where c/name/value = '{{templateId}}'\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{openehrBaseUrl}}/query/aql",
+									"host": [
+										"{{openehrBaseUrl}}"
+									],
+									"path": [
+										"query",
+										"aql"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get all blood pressure on my EHR",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"description": "Format of transferred body",
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"description": "May be used by clients for resource representation negotiation",
+										"key": "PREFER",
+										"type": "text",
+										"value": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"q\": \"select o/data[at0001]/events[at0006]/data[at0003]/items[at0004]/value/magnitude as systolic, o/data[at0001]/events[at0006]/data[at0003]/items[at0005]/value/magnitude as diastolic from EHR e CONTAINS OBSERVATION o [openEHR-EHR-OBSERVATION.blood_pressure.v2] where e/ehr_id/value = '{{ehrId}}'\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{openehrBaseUrl}}/query/aql",
+									"host": [
+										"{{openehrBaseUrl}}"
+									],
+									"path": [
+										"query",
+										"aql"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get all blood pressure",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"description": "Format of transferred body",
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"description": "May be used by clients for resource representation negotiation",
+										"key": "PREFER",
+										"type": "text",
+										"value": "",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"q\": \"select c/composer/name as composer, o/data[at0001]/events[at0006]/data[at0003]/items[at0004]/value/magnitude as systolic, o/data[at0001]/events[at0006]/data[at0003]/items[at0005]/value/magnitude as diastolic from COMPOSITION c CONTAINS OBSERVATION o [openEHR-EHR-OBSERVATION.blood_pressure.v2]\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
